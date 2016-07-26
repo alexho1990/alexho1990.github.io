@@ -1,0 +1,17 @@
+/**
+ * Links
+ */
+a {
+    color: $gold;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($gold, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+

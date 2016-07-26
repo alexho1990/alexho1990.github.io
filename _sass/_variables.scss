@@ -1,0 +1,29 @@
+
+// Our variables
+$base-font-family: "Unna", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+// COLOURS
+
+$black: rgb(62,62,62);
+$white: rgb(242,242,242);
+$gold: #c09859;
+
+$text-color:       $black;
+$background-color: $white;
+$brand-color:      #2a7ae2;
+
+$grey-color-light: rgb(204,204,204);
+$grey-color-dark:  rgb(121,121,121);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+

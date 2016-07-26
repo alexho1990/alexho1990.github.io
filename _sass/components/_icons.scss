@@ -1,0 +1,16 @@
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+
+        path {
+            fill: $gold;
+        }
+    }
+}

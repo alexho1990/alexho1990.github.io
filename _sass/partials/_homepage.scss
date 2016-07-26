@@ -1,0 +1,37 @@
+h1 {
+  font-size: 60px;
+  line-height: 100%;
+  cursor: auto;
+}
+
+.wrapper {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+.can-do {
+  margin-top: 6%;
+}
+
+.left-text {
+  width: 240px;
+  font-size: 36px;
+  text-align: left;
+  margin-top: 30px;
+  line-height: 1.3em;
+}
+
+.right-text {
+  width: 480px;
+  float: right;
+  p {
+    line-height: 1.6em;
+    font-size: 22px;
+    text-align: left;
+  }
+}
+
+#carousel {
+  display: inline-block;
+}
