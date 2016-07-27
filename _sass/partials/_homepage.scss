@@ -1,37 +1,89 @@
-h1 {
-  font-size: 60px;
-  line-height: 100%;
-  cursor: auto;
-}
 
 .wrapper {
   margin: auto;
   text-align: center;
   width: 70%;
-}
-
-.can-do {
-  margin-top: 6%;
-}
-
-.left-text {
-  width: 240px;
-  font-size: 36px;
-  text-align: left;
-  margin-top: 30px;
-  line-height: 1.3em;
-}
-
-.right-text {
-  width: 480px;
-  float: right;
-  p {
-    line-height: 1.6em;
-    font-size: 22px;
-    text-align: left;
+  h1 {
+    font-size: 60px;
+    line-height: 100%;
+    cursor: auto;
   }
-}
+  .can-do {
+    margin-top: 6%;
+  }
 
-#carousel {
-  display: inline-block;
+  .left-text {
+    width: 400px;
+    line-height: 1.3em;
+    letter-spacing: .02em;
+    margin-top: 30px;
+    button {
+      display: inline-block;
+      position: relative;
+      right: 50px;
+      background-color: $white;
+      border: 2px solid #1c2018;
+      color: #1c2018;
+      cursor: pointer;
+      height: 80px;
+      width: 300px;
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: $base-font-family;
+        color: #1c2018;
+        letter-spacing: .1em;
+        font-weight: 400;
+      }
+      &:focus {
+        outline: none;
+        background-color: #1c2018;
+        a {
+          color: $white;
+        }
+      }
+      &:hover {
+        background-color: #1c2018;
+        transition: 0.1s background-color linear, 0.1s color linear;
+        transition-property: background-color, color;
+        transition-duration: 0.1s, 0.1s;
+        transition-timing-function: linear, linear;
+        transition-delay: initial, initial;
+        a {
+          color: $white;
+        }
+      }
+    }
+    h1 {
+      font-size: 36px;
+      padding: 0px 30px 10px 20px;
+      position: relative;
+      right: 50px;
+    }
+  }
+  
+  .right-text {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 401px;
+    left: 362px;
+    top: -177px;
+    p {
+      line-height: 1.6em;
+      font-size: 22px;
+      text-align: left;
+    }
+  }
+  .carousel {
+    position: relative;
+    bottom: 18vh;
+  }
+  #carousel-img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+
 }
