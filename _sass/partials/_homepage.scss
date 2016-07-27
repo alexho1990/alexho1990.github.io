@@ -85,5 +85,38 @@
     height: 100%;
     width: 100%;
   }
-
+  .blockquote-container {
+    position: relative;
+    bottom: 80px;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 1.3em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: .02em;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .blockquote {
+    text-align: left;
+    border: 1px solid rgba(28,32,24,.8);
+    border-width: 0 0 0 1px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+    font-size: 22px;
+    line-height: 1.6em;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+  }
+  .quoter {
+    text-align: right;
+    font-size: 22px;
+  }
 }
