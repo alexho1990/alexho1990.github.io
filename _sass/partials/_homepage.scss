@@ -62,7 +62,7 @@
       right: 50px;
     }
   }
-  
+
   .right-text {
     display: inline-block;
     position: relative;
@@ -118,5 +118,18 @@
   .quoter {
     text-align: right;
     font-size: 22px;
+  }
+  iframe {
+    position: relative;
+    bottom: 3vh;
+    right: 68px;
+  }
+  .subhead {
+    text-align: left;
+  }
+  .subparagraph {
+    font-size: 22px;
+    line-height: 1.6em;
+    text-align: left;
   }
 }
